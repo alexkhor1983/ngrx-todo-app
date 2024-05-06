@@ -9,5 +9,5 @@ export interface TodoState {
 }
 
 export const initialState: TodoState = {
-  todos: []
+  todos: [{id: '1', text: 'Learn Angular', completed: false}],
 };

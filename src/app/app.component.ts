@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TodoListComponent } from './todo/todo-list/todo-list.component';
-import { TodoState } from './state-management/todo.state';
-import { Store } from '@ngrx/store';
-import { todoSelector } from './state-management/todo.reducers';
 
 @Component({
   selector: 'app-root',
